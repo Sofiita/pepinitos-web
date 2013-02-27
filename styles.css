@@ -1,0 +1,302 @@
+/* Hoja de estilos para web de Los Pepinitos:
+
+1 - LAYOUT
+
+2 - NAVEGACIÓN SUPERIOR
+
+3 - NAVEGACIÓN INFERIOR
+
+4 - AGRADECIMIENTO
+
+5 - VIDEO
+
+6 - NUEVO DISCO
+
+7 - DESCARGAR TEMA
+
+8 - FOOTER */
+
+/* ############################################
+			1 - LAYOUT
+############################################ */
+
+body {
+	background-image: url(dark_wood.png);
+	background-repeat: repeat;
+	color: gray;
+	font-family: Englebert, sans serif ;
+}
+
+.clear {
+	clear: both;
+}
+
+#container {
+	background-color: white;
+	width: 940px;
+	border: 2px solid gray;
+	margin:0 auto;
+}
+
+header {
+	height: 145px;
+	text-align: center;
+	margin: 0 auto;
+	width: 940px;
+	background-color: white;
+	border: 2px solid gray;
+	margin-bottom: 15px;
+}
+
+header h1 {
+	font-size: 60px;
+	font-family: sans-serif;
+	font-weight: bolder;
+	color: gray;
+}
+
+a {
+	color: green;
+	text-decoration: none;
+}
+
+#linkDescarga {
+	color: orange;
+	font-weight: bolder;
+}
+
+/* ############################################
+			2 - NAVEGACIÓN SUPERIOR
+############################################ */
+
+#barraSuperior {
+	height: 40px;
+	background-color: white;
+	padding-left: 3px;
+	padding-top: 11px;
+	width: 940px;
+	margin: 0 auto;
+	border: 2px solid gray;
+	margin-bottom: 15px;
+}
+
+#barraSuperior li {
+	float: left;
+	list-style: none;
+	margin-right: 1px;
+}
+
+#barraSuperior li a {
+	float: left;
+	color: white;
+	background-color: gray;
+	padding: 5px 45px;
+}
+
+#barraSuperior li a:hover {
+	background-color: orange;
+}
+
+/* ############################################
+			3 - NAVEGACIÓN INFERIOR
+############################################ */
+
+#navInferior {
+	float: left;
+	width: 100%;
+	padding-top: 15px;
+}
+
+#barraInferior {
+	height: 40px;
+	background-color: white;
+	padding-left: 0px;
+	padding-top: 11px;
+	width: 940px;
+	margin: 0 auto 0px;
+	border: 2px solid gray;
+	margin-bottom: -5px;
+}
+
+#barraInferior li {
+	float: left;
+	list-style: none;
+	padding-right: 1px;
+}
+
+#barraInferior li a {
+	float: left;
+	color: white;
+	background-color: gray;
+	padding: 5px 44px;
+}
+
+#barraInferior li a:hover {
+	background-color: orange;
+}
+
+/* ############################################
+			4 - AGRADECIMIENTO
+############################################ */
+
+#agradecimiento {
+	float: right;
+	width: 47%;
+}
+
+/* ############################################
+			5 - VIDEO
+############################################ */
+
+#video iframe {
+	display: inline;
+	width: 46%;
+	padding: 0 3%;
+}
+
+/* ############################################
+			6 - NUEVO DISCO
+############################################ */
+
+div#disco {
+	float: left;
+	width: 47%;
+	padding: 20px 3%;
+}
+
+div#disco img {
+	float: left;
+	width: 50%;
+}
+
+div#disco h5 {
+	display: inline;
+	float: right;
+	width: 210px;
+	text-align: center;
+}
+
+div#disco ol {
+	float: right;
+	padding: 0;
+	display: inline;
+	width: 210px;
+	list-style-position: inside;
+}
+
+/* ############################################
+			7 - DESCARGAR TEMA 
+############################################ */
+
+div#tema {
+	float: right;
+	width: 47%;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+div#tema object {
+	display: block;
+	height: 132px;
+	width: 100%;
+}
+
+div#tema object embed {
+	width: 100%;
+}
+
+/* ############################################
+			8 - FOOTER
+############################################ */
+
+p#copyRight {
+	float: left;
+	margin-top: 6px;
+	margin-bottom: 1px;
+	text-align: center;
+	width: 100%;
+	font-size: 13px;
+}
+
+/* ############################################
+			9 - GALERIA DE IMAGENES
+############################################ */
+
+#galeria {
+	margin-left: 35px;
+}
+
+.foto, .video {
+	display: inline;
+	width: 280px;
+	float: left;
+	margin-right: 14px;
+	margin-bottom: 10px;
+	border: 1px solid lightGray;
+	padding: 9px;
+	border-radius: 7px;
+	background-color: EFEFEF;
+}
+
+.foto img {
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.foto span {
+	display: block;
+	text-align: center;
+}
+
+/* ############################################
+			10 - DISCOGRAFÍA
+############################################ */
+
+#discouno {
+	margin-left: 34px;
+}
+
+#discodos {
+	margin-left: 34px;
+}
+
+#discotres {
+	margin-left: 34px;
+}
+
+.clear {
+	clear: both;
+}
+
+div #cubo {
+	background-color: #EEE;
+	border: 1px solid #DDD;
+	margin-right: 677px;
+	margin-bottom: 10px;
+}
+/* ############################################
+			11 - VIDEOS
+############################################ */
+
+.video img {
+	width: 280px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+
+}
+
+h2#encabezado {
+	margin-left: 34px;
+}
+
+h5#click {
+	margin-left: 34px;
+}
+
+div #videoGrande {
+	margin-left: 34px;
+}
+
+p#descripcion{
+	margin-left: 34px;
+}
