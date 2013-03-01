@@ -70,30 +70,34 @@ a {
 ############################################ */
 
 #barraSuperior {
-	height: 40px;
 	background-color: white;
-	padding-left: 3px;
-	padding-top: 11px;
 	width: 940px;
-	margin: 0 auto;
+	margin: 0 auto 15px;
 	border: 2px solid gray;
-	margin-bottom: 15px;
 }
 
-#barraSuperior li {
+#barraSuperior ul {
+	height: 40px;
+	padding-left: 0px;
+	padding-top: 11px;
+	margin: 0px;
+	margin-left: 30px;
+}
+
+#barraSuperior ul li {
 	float: left;
 	list-style: none;
 	margin-right: 1px;
 }
 
-#barraSuperior li a {
+#barraSuperior ul li a {
 	float: left;
 	color: white;
 	background-color: gray;
-	padding: 5px 45px;
+	padding: 5px 40px;
 }
 
-#barraSuperior li a:hover {
+#barraSuperior ul li a:hover {
 	background-color: orange;
 }
 
@@ -104,7 +108,7 @@ a {
 #navInferior {
 	float: left;
 	width: 100%;
-	padding-top: 15px;
+	margin-top: 15px;
 }
 
 #barraInferior {
