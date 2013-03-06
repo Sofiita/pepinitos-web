@@ -126,12 +126,10 @@ a {
 	padding-top: 12px;
 }
 
-#barraInferior ul {
-	height: 40px;
-	padding-top: 11px;
+#barraInferior {
+	height: 24px;
 	width: 940px;
 	margin: 0 auto 0px;
-	border: 2px solid gray;
 	margin-bottom: -5px;
 	margin-left: 33px;
 }
