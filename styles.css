@@ -1,5 +1,7 @@
 /* Hoja de estilos para web de Los Pepinitos:
 
+0 - IMPORTS
+
 1 - LAYOUT
 
 2 - NAVEGACIÓN SUPERIOR
@@ -16,13 +18,20 @@
 
 8 - FOOTER */
 
+
+/* ############################################
+			0 - IMPORTS
+############################################ */
+
+@import "reset.css";
+@import "topnav.css";
+
 /* ############################################
 			1 - LAYOUT
 ############################################ */
 
 body {
-	background-image: url(dark_wood.png);
-	background-repeat: repeat;
+	background-color: gray;
 	color: gray;
 	font-family: Englebert, sans serif ;
 }
@@ -39,6 +48,7 @@ body {
 }
 
 header {
+	margin-top: 30px;
 	height: 145px;
 	text-align: center;
 	margin: 0 auto;
@@ -53,6 +63,7 @@ header h1 {
 	font-family: sans-serif;
 	font-weight: bolder;
 	color: gray;
+	margin-top: 40px;
 }
 
 a {
@@ -78,7 +89,7 @@ a {
 
 #barraSuperior ul {
 	height: 40px;
-	padding-left: 0px;
+	padding-left: 3px;
 	padding-top: 11px;
 	margin: 0px;
 	margin-left: 30px;
@@ -107,19 +118,22 @@ a {
 
 #navInferior {
 	float: left;
-	width: 100%;
-	margin-top: 15px;
+	width: 940px;
+	margin: 0 auto 15px;
+	background-color: white;
+	height: 40px;
+	margin-top: 18px;
+	padding-top: 12px;
 }
 
-#barraInferior {
+#barraInferior ul {
 	height: 40px;
-	background-color: white;
-	padding-left: 0px;
 	padding-top: 11px;
 	width: 940px;
 	margin: 0 auto 0px;
 	border: 2px solid gray;
 	margin-bottom: -5px;
+	margin-left: 33px;
 }
 
 #barraInferior li {
@@ -132,7 +146,7 @@ a {
 	float: left;
 	color: white;
 	background-color: gray;
-	padding: 5px 44px;
+	padding: 5px 40px;
 }
 
 #barraInferior li a:hover {
