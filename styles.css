@@ -24,7 +24,10 @@
 ############################################ */
 
 @import "reset.css";
-@import "topnav.css";
+@import "imagenes.css";
+@import "discografia.css";
+@import "agradecimiento.css";
+@import "videos.css";
 
 /* ############################################
 			1 - LAYOUT
@@ -44,7 +47,8 @@ body {
 	background-color: white;
 	width: 940px;
 	border: 2px solid gray;
-	margin:0 auto;
+	margin:0 auto 15px;
+	padding-top: 10px;
 }
 
 header {
@@ -84,7 +88,6 @@ a {
 	background-color: white;
 	width: 940px;
 	margin: 0 auto 15px;
-	border: 2px solid gray;
 }
 
 #barraSuperior ul {
@@ -115,49 +118,36 @@ a {
 /* ############################################
 			3 - NAVEGACIÓN INFERIOR
 ############################################ */
-
 #navInferior {
-	float: left;
+	background-color: white;
 	width: 940px;
 	margin: 0 auto 15px;
-	background-color: white;
+	margin-top: 7px;
+}
+
+#navInferior ul {
 	height: 40px;
-	margin-top: 18px;
-	padding-top: 12px;
+	padding-left: 3px;
+	padding-top: 11px;
+	margin: 0px;
+	margin-left: 30px;
 }
 
-#barraInferior {
-	height: 24px;
-	width: 940px;
-	margin: 0 auto 0px;
-	margin-bottom: -5px;
-	margin-left: 33px;
-}
-
-#barraInferior li {
+#navInferior ul li {
 	float: left;
 	list-style: none;
-	padding-right: 1px;
+	margin-right: 1px;
 }
 
-#barraInferior li a {
+#navInferior ul li a {
 	float: left;
 	color: white;
 	background-color: gray;
 	padding: 5px 40px;
 }
 
-#barraInferior li a:hover {
+#navInferior ul li a:hover {
 	background-color: orange;
-}
-
-/* ############################################
-			4 - AGRADECIMIENTO
-############################################ */
-
-#agradecimiento {
-	float: right;
-	width: 47%;
 }
 
 /* ############################################
@@ -234,85 +224,3 @@ p#copyRight {
 	font-size: 13px;
 }
 
-/* ############################################
-			9 - GALERIA DE IMAGENES
-############################################ */
-
-#galeria {
-	margin-left: 35px;
-}
-
-.foto, .video {
-	display: inline;
-	width: 280px;
-	float: left;
-	margin-right: 14px;
-	margin-bottom: 10px;
-	border: 1px solid lightGray;
-	padding: 9px;
-	border-radius: 7px;
-	background-color: EFEFEF;
-}
-
-.foto img {
-	margin-right: 10px;
-	margin-bottom: 10px;
-}
-
-.foto span {
-	display: block;
-	text-align: center;
-}
-
-/* ############################################
-			10 - DISCOGRAFÍA
-############################################ */
-
-#discouno {
-	margin-left: 34px;
-}
-
-#discodos {
-	margin-left: 34px;
-}
-
-#discotres {
-	margin-left: 34px;
-}
-
-.clear {
-	clear: both;
-}
-
-div #cubo {
-	background-color: #EEE;
-	border: 1px solid #DDD;
-	margin-right: 677px;
-	margin-bottom: 10px;
-}
-/* ############################################
-			11 - VIDEOS
-############################################ */
-
-.video img {
-	width: 280px;
-	margin-right: 10px;
-	margin-bottom: 10px;
-
-}
-
-h2#encabezado {
-	margin-left: 34px;
-}
-
-h5#click {
-	margin-left: 34px;
-}
-
-div #videoGrande {
-	margin-left: 34px;
-}
-
-p#descripcion{
-	margin-left: 34px;
-}
