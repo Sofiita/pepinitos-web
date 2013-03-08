@@ -1,0 +1,25 @@
+/* ############################################
+			11 - VIDEOS
+############################################ */
+
+.video img {
+	width: 280px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+h2#encabezado {
+	margin-left: 34px;
+}
+
+h5#click {
+	margin-left: 34px;
+}
+
+div #videoGrande {
+	margin-left: 34px;
+}
+
+p#descripcion{
+	margin-left: 34px;
+}

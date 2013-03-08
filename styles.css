@@ -27,7 +27,7 @@
 @import "imagenes.css";
 @import "discografia.css";
 @import "agradecimiento.css";
-@import "videos.css";
+@import "video.css";
 
 /* ############################################
 			1 - LAYOUT
@@ -217,10 +217,23 @@ div#tema object embed {
 
 p#copyRight {
 	float: left;
-	margin-top: 6px;
 	margin-bottom: 1px;
 	text-align: center;
 	width: 100%;
 	font-size: 13px;
+	color: white;
 }
+
+/* ############################################
+			9 - INTEGRANTES
+############################################ */
+
+#container {
+	color: gray;
+	text-align: center;
+}
+
+
+
+
 
