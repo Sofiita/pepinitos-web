@@ -232,8 +232,15 @@ p#copyRight {
 	color: gray;
 	text-align: center;
 }
+#integrantes {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}	
+h3 #integrantes
+ {
+	margin-bottom: 5px;
+}
 
-
-
-
-
+img article #integrantes {
+	margin-bottom: 5px;
+}
