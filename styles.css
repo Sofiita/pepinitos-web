@@ -94,14 +94,14 @@ a {
 	height: 40px;
 	padding-left: 3px;
 	padding-top: 11px;
-	margin: 0px;
-	margin-left: 30px;
+	margin: 0px 0px 0px 17px;
+	margin-left: 17px;
 }
 
 #barraSuperior ul li {
 	float: left;
 	list-style: none;
-	margin-right: 1px;
+	margin-right: 2px;
 }
 
 #barraSuperior ul li a {
@@ -109,6 +109,13 @@ a {
 	color: white;
 	background-color: gray;
 	padding: 5px 40px;
+	color: white;
+	border: 2px outset gray;
+	background-color: gray;
+	font-weight: normal;
+	text-decoration: none;
+	border-radius: 5px;
+	box-shadow: 3px 0px 5px 3px silver;
 }
 
 #barraSuperior ul li a:hover {
@@ -130,7 +137,7 @@ a {
 	padding-left: 3px;
 	padding-top: 11px;
 	margin: 0px;
-	margin-left: 30px;
+	margin-left: 17px;
 }
 
 #navInferior ul li {
@@ -144,6 +151,17 @@ a {
 	color: white;
 	background-color: gray;
 	padding: 5px 40px;
+	float: left;
+	color: white;
+	background-color: gray;
+	padding: 5px 40px;
+	color: white;
+	border: 2px outset gray;
+	background-color: gray;
+	font-weight: normal;
+	text-decoration: none;
+	border-radius: 5px;
+	box-shadow: 3px 0px 5px 3px silver;
 }
 
 #navInferior ul li a:hover {

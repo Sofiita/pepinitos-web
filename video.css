@@ -9,7 +9,8 @@
 }
 
 h2#encabezado {
-
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 a#click {
@@ -17,7 +18,7 @@ a#click {
 }
 
 div #videoGrande {
-
+	margin-top: 30px;
 }
 
 p#descripcion{
@@ -30,3 +31,20 @@ font-size:14px;
 padding: 8px 14px 9px;
 }
 
+#volveratras {
+	color: white;
+	border: 1px outset gray;
+	padding: 5px 20px 5px 20px;
+	background-color: gray;
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	text-decoration: none;
+	border-radius: 5px;
+	box-shadow: 3px 0px 5px 3px silver;
+	margin-right: 790px;
+}
+
+#volveratras:hover{
+	background-color: silver;
+}
