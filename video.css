@@ -32,19 +32,17 @@ padding: 8px 14px 9px;
 }
 
 #volveratras {
-	color: white;
-	border: 1px outset gray;
+	color: silver;
 	padding: 5px 20px 5px 20px;
-	background-color: gray;
 	font-family: sans-serif;
 	font-size: 12px;
 	font-weight: normal;
-	text-decoration: none;
-	border-radius: 5px;
-	box-shadow: 3px 0px 5px 3px silver;
-	margin-right: 790px;
+	text-decoration: none;	
+	float: left;
+	margin-left: 22px;
+	margin-bottom: 10px;
 }
 
 #volveratras:hover{
-	background-color: silver;
+	border-bottom: YellowGreen;
 }

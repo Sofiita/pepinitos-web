@@ -8,15 +8,17 @@
 
 3 - NAVEGACIÓN INFERIOR
 
-4 - AGRADECIMIENTO
+4 - import AGRADECIMIENTO
 
-5 - VIDEO
+5 - import VIDEO
 
 6 - NUEVO DISCO
 
 7 - DESCARGAR TEMA
 
-8 - FOOTER */
+8 - FOOTER 
+
+*/
 
 
 /* ############################################
@@ -28,14 +30,16 @@
 @import "discografia.css";
 @import "agradecimiento.css";
 @import "video.css";
+@import "proximos-recitales.css";
+@import "integrantes.css";
 
 /* ############################################
 			1 - LAYOUT
 ############################################ */
 
 body {
-	background-color: gray;
-	color: gray;
+	background-color: white;
+	color: white;
 	font-family: Englebert, sans serif ;
 }
 
@@ -46,7 +50,7 @@ body {
 #container {
 	background-color: white;
 	width: 940px;
-	border: 2px solid gray;
+	border: 2px solid white;
 	margin:0 auto 15px;
 	padding-top: 10px;
 }
@@ -58,7 +62,7 @@ header {
 	margin: 0 auto;
 	width: 940px;
 	background-color: white;
-	border: 2px solid gray;
+	border: 2px solid white;
 	margin-bottom: 15px;
 }
 
@@ -66,13 +70,8 @@ header h1 {
 	font-size: 60px;
 	font-family: sans-serif;
 	font-weight: bolder;
-	color: gray;
+	color: YellowGreen;
 	margin-top: 40px;
-}
-
-a {
-	color: green;
-	text-decoration: none;
 }
 
 #linkDescarga {
@@ -85,7 +84,6 @@ a {
 ############################################ */
 
 #barraSuperior {
-	background-color: white;
 	width: 940px;
 	margin: 0 auto 15px;
 }
@@ -93,7 +91,6 @@ a {
 #barraSuperior ul {
 	height: 40px;
 	padding-left: 3px;
-	padding-top: 11px;
 	margin: 0px 0px 0px 17px;
 	margin-left: 17px;
 }
@@ -106,20 +103,15 @@ a {
 
 #barraSuperior ul li a {
 	float: left;
-	color: white;
-	background-color: gray;
 	padding: 5px 40px;
-	color: white;
-	border: 2px outset gray;
-	background-color: gray;
 	font-weight: normal;
 	text-decoration: none;
-	border-radius: 5px;
-	box-shadow: 3px 0px 5px 3px silver;
+	color: silver;
+	border-bottom: 3px solid silver;
 }
 
 #barraSuperior ul li a:hover {
-	background-color: orange;
+	border-color: YellowGreen;
 }
 
 /* ############################################
@@ -130,6 +122,7 @@ a {
 	width: 940px;
 	margin: 0 auto 15px;
 	margin-top: 7px;
+
 }
 
 #navInferior ul {
@@ -148,24 +141,17 @@ a {
 
 #navInferior ul li a {
 	float: left;
-	color: white;
-	background-color: gray;
+	color: silver;
 	padding: 5px 40px;
 	float: left;
-	color: white;
-	background-color: gray;
 	padding: 5px 40px;
-	color: white;
-	border: 2px outset gray;
-	background-color: gray;
 	font-weight: normal;
 	text-decoration: none;
-	border-radius: 5px;
-	box-shadow: 3px 0px 5px 3px silver;
-}
+	border-bottom: 3px solid YellowGreen;
+	}
 
 #navInferior ul li a:hover {
-	background-color: orange;
+	border-bottom: white;
 }
 
 /* ############################################
@@ -242,23 +228,3 @@ p#copyRight {
 	color: white;
 }
 
-/* ############################################
-			9 - INTEGRANTES
-############################################ */
-
-#container {
-	color: gray;
-	text-align: center;
-}
-#integrantes {
-	margin-top: 25px;
-	margin-bottom: 25px;
-}	
-h3 #integrantes
- {
-	margin-bottom: 5px;
-}
-
-img article #integrantes {
-	margin-bottom: 5px;
-}

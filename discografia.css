@@ -2,23 +2,50 @@
 			10 - DISCOGRAFÍA
 ############################################ */
 
-#discouno {
-	margin-left: 34px;
+#discouno ol {
+	float: left;
+	margin-top: 55px;
+	text-align: left;
 }
 
-ol #discouno {
-
+#discouno h2 {
+	float: left;
 }
 
-
-#discodos {
-	margin-left: 34px;
+#discouno ul {
+	list-style-type: none;
+	font-size: 13px;
 }
 
-#discotres {
-	margin-left: 34px;
+#discodos ol {
+	float: left;
+	margin-top: 55px;
+	text-align: left;
 }
 
+#discodos h2 {
+	float: left;
+}
+
+#discodos ul {
+	list-style-type: none;
+	font-size: 13px;
+}
+
+#discotres ol {
+	float: left;
+	margin-top: 55px;
+	text-align: left;
+}
+
+#discotres h2 {
+	float: left;
+}
+
+#discotres ul {
+	list-style-type: none;
+	font-size: 13px;
+}
 div #cubo {
 	background-color: #EEE;
 	border: 1px solid #DDD;
