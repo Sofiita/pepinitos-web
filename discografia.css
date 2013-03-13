@@ -12,6 +12,10 @@
 	float: left;
 }
 
+#discouno img {
+	margin-left: 57px;
+}
+
 #discouno ul {
 	list-style-type: none;
 	font-size: 13px;
@@ -46,10 +50,12 @@
 	list-style-type: none;
 	font-size: 13px;
 }
+
+#discotres img {
+	margin-left: 103px;
+}
 div #cubo {
-	background-color: #EEE;
-	border: 1px solid #DDD;
 	margin-right: 677px;
 	margin-bottom: 10px;
-	text-align: left;
+	float: left;
 }

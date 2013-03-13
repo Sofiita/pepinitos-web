@@ -67,11 +67,11 @@ header {
 }
 
 header h1 {
-	font-size: 60px;
-	font-family: sans-serif;
-	font-weight: bolder;
+	font-size: 80px;
 	color: YellowGreen;
 	margin-top: 40px;
+	text-shadow: 5px 5px 5px lightGrey;
+	font-family:'Patrick Hand SC', cursive;
 }
 
 #linkDescarga {
