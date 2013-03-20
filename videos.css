@@ -1,5 +1,5 @@
 /* ############################################
-			11 - VIDEOS
+			11 - VIDEO
 ############################################ */
 
 .video img {
@@ -23,6 +23,7 @@ div #videoGrande {
 
 p#descripcion{
 	margin-left: 34px;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 img a div#container {

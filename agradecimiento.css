@@ -6,3 +6,14 @@
 	float: right;
 	width: 47%;
 }
+
+#agradecimiento h2 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 35px;
+	margin-bottom: 10px;
+}
+
+#agradecimiento p {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 20px;
+}

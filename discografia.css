@@ -4,55 +4,67 @@
 
 #discouno ol {
 	float: left;
-	margin-top: 55px;
+	margin-top: 30px;
 	text-align: left;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 #discouno h2 {
 	float: left;
+	margin-left: 20px;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 #discouno img {
-	margin-left: 57px;
+	margin-left:
 }
 
 #discouno ul {
+	font-family: 'Open Sans Condensed', sans-serif;
 	list-style-type: none;
 	font-size: 13px;
 }
 
 #discodos ol {
 	float: left;
+	font-family: 'Open Sans Condensed', sans-serif;
 	margin-top: 55px;
 	text-align: left;
 }
 
 #discodos h2 {
 	float: left;
+	margin-left: 20px;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 #discodos ul {
 	list-style-type: none;
 	font-size: 13px;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 #discotres ol {
 	float: left;
+	font-family: 'Open Sans Condensed', sans-serif;
 	margin-top: 55px;
 	text-align: left;
 }
 
 #discotres h2 {
 	float: left;
+	margin-left: 20px;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 #discotres ul {
 	list-style-type: none;
 	font-size: 13px;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 #discotres img {
-	margin-left: 103px;
+	
 }
 div #cubo {
 	margin-right: 677px;

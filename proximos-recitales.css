@@ -4,4 +4,13 @@
 
 #fechas {
 	margin-bottom: 25px;
+	margin-top: 5px;
 }
+
+#fechas h1 {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+#fechas h4 {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
