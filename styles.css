@@ -112,6 +112,26 @@ div #noticias {
 	width: 940px;
 	height: 150px;
 }
+#citas div {
+	float: right;
+	height: 300px;
+	width: 940px;
+}
+
+#citas p {
+	text-align: center;
+	background-color: white;
+	color: maroon;
+	width: 940px;
+	opacity: 0.8;
+	font-size: 30px;
+	float: right;
+	font-family: 'Loved by the King', cursive;
+	margin-right: 50px;
+	width: 718px;
+	margin-right: 298px;
+	margin-bottom: 14px;
+}
 
 /* ############################################
 			2 - NAVEGACIÓN SUPERIOR
