@@ -26,6 +26,26 @@ p#descripcion{
 	font-family: 'Open Sans Condensed', sans-serif;
 }
 
+span {
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: black;	
+	text-decoration: none;
+}
+
 img a div#container {
 	margin-right: 790px;
+}
+
+
+#citas p {
+	text-align: center;
+	background-color: white;
+	color: maroon;
+	width: 728px;
+	opacity: 0.8;
+	font-size: 40px;
+	float: right;
+	font-family: 'Loved by the King', cursive;
+	margin-right: 138px;
+	margin-bottom: 14px;
 }

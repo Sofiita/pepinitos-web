@@ -85,6 +85,10 @@ header h1 {
 	font-family: 'Amatic SC', cursive;
 }
 
+#linkInicio a h1 {
+	text-decoration: none;
+}
+
 
 #linkDescarga {
 	color: orange;
@@ -93,25 +97,15 @@ header h1 {
 	font-size: 35px;
 }
 
-div #noticias {
-  position: absolute;
-  display: inline;
-  float: left;
-  margin: 0 auto;
-  border-right 5px solid #555;
-  width: 940px;
-  overflow-x: hidden;
-  overflow-y: visible;
+#agradecimiento h2 {
+	text-align: center;
+}
+#agradecimiento p {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 20px;
+	margin-top: 50px;
 }
 
-#noticias p {
-	font-family: Englebert, sans serif ;
-	color: YellowGreen;
-	margin: 0 auto;
-	text-align: center;
-	width: 940px;
-	height: 150px;
-}
 #citas div {
 	float: right;
 	height: 300px;
@@ -122,14 +116,12 @@ div #noticias {
 	text-align: center;
 	background-color: white;
 	color: maroon;
-	width: 940px;
+	width: 728px;
 	opacity: 0.8;
-	font-size: 30px;
+	font-size: 40px;
 	float: right;
 	font-family: 'Loved by the King', cursive;
-	margin-right: 50px;
-	width: 718px;
-	margin-right: 298px;
+	margin-right: 297px;
 	margin-bottom: 14px;
 }
 
@@ -138,10 +130,10 @@ div #noticias {
 ############################################ */
 
 #barraSuperior {
-	width: 942px;
+	width: 200px;
 	opacity: 0.8;
-	margin: 0 auto 15px;
-	padding-left: 0px;
+	float: left;
+	margin-left: 297px;
 }
 
 #barraSuperior ul {
@@ -170,8 +162,9 @@ div #noticias {
 	border-left: 10px solid Grey;
 	color: silver;
 	padding-left: 10px;
-	color: 
 }
+
+
 
 /* ############################################
 			5 - VIDEO

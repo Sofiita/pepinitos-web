@@ -1,73 +1,26 @@
 /* ############################################
 			10 - DISCOGRAFÍA
 ############################################ */
-
-#discouno ol {
+h2 {
 	float: left;
-	margin-top: 30px;
-	text-align: left;
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 
 }
 
-#discouno h2 {
+#cubo {
+	font-family: 'Loved by the King', cursive;
+	font-size: 15px;
+}
+
+#discouno img { 
 	float: left;
-	margin-left: 20px;
-	font-family: 'Open Sans Condensed', sans-serif;
+	margin-top: 30px
 }
-
-#discouno img {
-	margin-left:
-}
-
-#discouno ul {
-	font-family: 'Open Sans Condensed', sans-serif;
-	list-style-type: none;
-	font-size: 13px;
-}
-
-#discodos ol {
+#discodos img {
 	float: left;
-	font-family: 'Open Sans Condensed', sans-serif;
-	margin-top: 55px;
-	text-align: left;
+	margin-top: 30px
 }
-
-#discodos h2 {
-	float: left;
-	margin-left: 20px;
-	font-family: 'Open Sans Condensed', sans-serif;
-}
-
-#discodos ul {
-	list-style-type: none;
-	font-size: 13px;
-	font-family: 'Open Sans Condensed', sans-serif;
-}
-
-#discotres ol {
-	float: left;
-	font-family: 'Open Sans Condensed', sans-serif;
-	margin-top: 55px;
-	text-align: left;
-}
-
-#discotres h2 {
-	float: left;
-	margin-left: 20px;
-	font-family: 'Open Sans Condensed', sans-serif;
-}
-
-#discotres ul {
-	list-style-type: none;
-	font-size: 13px;
-	font-family: 'Open Sans Condensed', sans-serif;
-}
-
 #discotres img {
-	
-}
-div #cubo {
-	margin-right: 677px;
-	margin-bottom: 10px;
 	float: left;
-}
+	margin-top: 30px
+} 
+
