@@ -1,26 +1,19 @@
 /* ############################################
 			10 - DISCOGRAFÍA
 ############################################ */
-h2 {
-	float: left;
-	font-family: 
+
+#discouno {
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
-#cubo {
-	font-family: 'Loved by the King', cursive;
-	font-size: 15px;
+#discodos {
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
-#discouno img { 
-	float: left;
-	margin-top: 30px
+#discotres {
+	font-family: 'Open Sans Condensed', sans-serif;
 }
-#discodos img {
-	float: left;
-	margin-top: 30px
-}
-#discotres img {
-	float: left;
-	margin-top: 30px
-} 
 
+#cubo ul {
+	list-style: none;
+}

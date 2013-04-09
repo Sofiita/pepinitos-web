@@ -6,14 +6,13 @@
 	width: 280px;
 	margin-right: 10px;
 	margin-bottom: 10px;
-
 }
 
-h2#encabezado {
+#encabezado {
 	margin-left: 34px;
 }
 
-h5#click {
+#click {
 	margin-left: 34px;
 }
 
@@ -34,18 +33,4 @@ span {
 
 img a div#container {
 	margin-right: 790px;
-}
-
-
-#citas p {
-	text-align: center;
-	background-color: white;
-	color: maroon;
-	width: 728px;
-	opacity: 0.8;
-	font-size: 40px;
-	float: right;
-	font-family: 'Loved by the King', cursive;
-	margin-right: 138px;
-	margin-bottom: 14px;
 }

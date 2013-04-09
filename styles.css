@@ -39,7 +39,6 @@
 ############################################ */
 
 body {
-	opacity: 0.8;
 	background-image: url("chal.jpg");
 	font-family: sans-serif;
 	background-repeat: no-repeat;
@@ -83,12 +82,12 @@ header h1 {
 	margin-top: 5px;
 	text-shadow: 5px 5px 5px lightGrey;
 	font-family: 'Amatic SC', cursive;
-}
-
-#linkInicio a h1 {
 	text-decoration: none;
 }
 
+#link-inicio {
+	text-decoration: none;
+}
 
 #linkDescarga {
 	color: orange;
@@ -112,62 +111,50 @@ header h1 {
 	width: 940px;
 }
 
-#citas p {
-	text-align: center;
-	background-color: white;
-	color: maroon;
-	width: 728px;
-	opacity: 0.8;
-	font-size: 40px;
-	float: right;
-	font-family: 'Loved by the King', cursive;
-	margin-right: 297px;
-	margin-bottom: 14px;
-}
-
 /* ############################################
 			2 - NAVEGACIÓN SUPERIOR
 ############################################ */
 
 #barraSuperior {
-	width: 200px;
+	width: 940px;
 	opacity: 0.8;
-	float: left;
-	margin-left: 297px;
+	margin: 0 auto 15px;
 }
 
 #barraSuperior ul {
 	list-style-type: none;
-	margin: 0px;
-	padding:0px;
-	width: 200px;
+	margin: 1px;
+	width: 940px;
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 20px;
+	height: 40px;
 }
 
 #barraSuperior ul li {
 	background-color: white;
+	float: left;
+  	list-style: none;
+  	margin-right: 2px;
 }
 
 #barraSuperior ul li a {
+	float: left;
+  	padding: 5px 46px;
 	color: gray;
 	text-decoration: none;
 	text-transform: uppercase;
-	display: block;
-	padding: 10px 10px 10px 20px;
 	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 #barraSuperior ul li a:hover {
-	border-left: 10px solid Grey;
+	border-bottom: 10px solid Grey;
 	color: silver;
-	padding-left: 10px;
 }
 
 
 
 /* ############################################
-			5 - VIDEO
+			3 - VIDEO
 ############################################ */
 
 #video iframe {
@@ -177,7 +164,7 @@ header h1 {
 }
 
 /* ############################################
-			6 - NUEVO DISCO
+			4 - NUEVO DISCO
 ############################################ */
 
 div#disco {
@@ -211,7 +198,7 @@ div#disco ol {
 }
 
 /* ############################################
-			8 - FOOTER
+			5 - FOOTER
 ############################################ */
 
 p#copyRight {
