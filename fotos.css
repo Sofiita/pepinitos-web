@@ -18,22 +18,17 @@
 	background-color: EFEFEF;
 }
 
+.foto img {
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-top: 18px;
+}
+
 .foto span {
 	display: block;
+	padding-bottom: 10px;
 	font-family: 'Open Sans Condensed', sans-serif;
 	text-align: center;
+	font-size: 25px;
 }
 
-
-#citas p {
-	text-align: center;
-	background-color: white;
-	color: maroon;
-	width: 728px;
-	opacity: 0.8;
-	font-size: 40px;
-	float: right;
-	font-family: 'Loved by the King', cursive;
-	margin-right: 138px;
-	margin-bottom: 14px;
-}

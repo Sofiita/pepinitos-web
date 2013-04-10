@@ -10,12 +10,9 @@
 	margin-top: 25px;
 	margin-bottom: 25px;
 }	
-h3 #integrantes {
-	margin-bottom: 5px;
-	padding: 15px;
-}
 
-img article #integrantes {
-	margin-bottom: 5px;
+#integrantes h3 {
+	padding-bottom: 10px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25px;
 }
-
