@@ -39,10 +39,10 @@
 ############################################ */
 
 body {
-	background-image: url("chal.jpg");
+	background-image: url("../images/chal.jpg");
 	font-family: sans-serif;
 	background-repeat: no-repeat;
-	background-attachment:fixed;
+	background-attachment: fixed;
 }
 
 div #noticias{
