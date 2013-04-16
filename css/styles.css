@@ -26,7 +26,7 @@
 ############################################ */
 
 @import "reset.css";
-@import "imagenes.css";
+@import "fotos.css";
 @import "discografia.css";
 @import "agradecimiento.css";
 @import "video.css";
@@ -173,6 +173,7 @@ div#disco {
 
 div#disco img {
 	float: left;
+	margin: 5px;
 	width: 50%;
 }
 
@@ -205,6 +206,6 @@ p#copyRight {
 	width: 100%;
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 20px;
-	color: white;
+	color: Dimgray;
 }
 

@@ -34,3 +34,18 @@
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 25px;
 }
+
+#recitales td {
+	margin: 5px;
+}
+
+input {
+	float: left;
+	margin-left: 70px;
+	vertical-align: middle;
+}
+
+button {
+	float: right;
+	margin-right: 69px;
+}

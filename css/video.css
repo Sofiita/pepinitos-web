@@ -9,12 +9,15 @@
 }
 
 h2#encabezado {
+	font-family: 'Open Sans Condensed', sans-serif;
 	margin-top: 10px;
+	font-size: 20px;
 	margin-bottom: 10px;
 }
 
 a#click {
 	margin-left: 34px;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 div #videoGrande {
@@ -23,11 +26,14 @@ div #videoGrande {
 
 p#descripcion{
 	margin-bottom: 10px;
+	font-family: 'Open Sans Condensed', sans-serif;
 	margin-top: 10px;
+	font-size: 25px;
 }
 
 #click {
-font-size:14px;
+font-size:20px;
+font-family: 'Open Sans Condensed', sans-serif;
 padding: 8px 14px 9px;
 }
 
